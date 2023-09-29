@@ -27,7 +27,7 @@ public class FoodItem {
 
     public void getDetails() {
             System.out.println("Name: " + name);
-            System.out.println("Price: $" + price);
+            System.out.println("Price is" + price);
         }
     }
 
