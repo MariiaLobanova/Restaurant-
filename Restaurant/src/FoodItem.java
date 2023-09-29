@@ -1,10 +1,11 @@
 public class FoodItem {
 
-    //Maria: FoodItem : name attribute plus get and set method
-        private String name;
-        private double price;
 
-        public FoodItem(String name, double price) {
+    //Maria: FoodItem : name attribute plus get and set method
+    private String name;
+    private double price;
+
+    public FoodItem(String name, double price) {
             this.name = name;
             this.price = price;
         }
@@ -17,6 +18,7 @@ public class FoodItem {
         this.name = name;
     }
 
+
     public double getPrice() {
         return price;
     }
@@ -25,9 +27,11 @@ public class FoodItem {
         this.price = price;
     }
 
+
     public void getDetails() {
             System.out.println("Name: " + name);
             System.out.println("Price: $" + price);
         }
     }
+
 
