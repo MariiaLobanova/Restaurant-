@@ -1,7 +1,9 @@
+package foodItem;
+
 public class FoodItem {
 
 
-    //Maria: FoodItem : name attribute plus get and set method
+    //Maria: foodItem.FoodItem : name attribute plus get and set method
     private String name;
     private double price;
 
